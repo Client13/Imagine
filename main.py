@@ -34,4 +34,5 @@ def txt2img(prompt):
   image.save("sd_image.png")
 
   return
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
