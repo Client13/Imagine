@@ -1,5 +1,5 @@
 import os
-os.system("pip install flask-frozen") 
+os.system("pip install Frozen-Flask") 
 from flask_frozen import Freezer
 from main import app
 
