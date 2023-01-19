@@ -1,5 +1,5 @@
 import os
-os.system("pip install --upgrade git+https://github.com/huggingface/diffusers.git transformers accelerate scipy xformers gradio -q") 
+os.system("pip install --upgrade diffusers transformers accelerate scipy xformers -q") 
 from diffusers import StableDiffusionPipeline, EulerDiscreteScheduler
 import torch
 model_id = "stabilityai/stable-diffusion-2"
