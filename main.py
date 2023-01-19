@@ -1,5 +1,5 @@
 import os
-os.system("pip install --upgrade diffusers transformers accelerate scipy xformers -q") 
+os.system("pip install --upgrade diffusers transformers accelerate torch -q") 
 from diffusers import StableDiffusionPipeline, EulerDiscreteScheduler
 import torch
 model_id = "stabilityai/stable-diffusion-2"
